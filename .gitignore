@@ -1,4 +1,5 @@
 node_modules/
+lib/
 coverage/lcov-report/
 coverage/clover.xml
 coverage/coverage-final.json

@@ -1,4 +1,4 @@
-import { Property, Model, type ObjectSchema } from '../';
+import { Property, Model, type ObjectSchema } from '../index';
 
 describe('decorators', () => {
   describe('property(type)', () => {

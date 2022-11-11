@@ -38,17 +38,21 @@ interface ObjectSchemaProperty {
 
 // properties types
 interface PropertiesTypes {
-  [keys: string]: PropertyType | ObjectSchemaProperty | ObjectSchema;
+  [keys: string]: ObjectSchemaProperty | PropertyType;
 }
 
 /**
  * ObjectSchema
  * @see { @link https://realm.io/docs/javascript/latest/api/Realm.html#~ObjectSchema }
  */
-export interface ObjectSchema {
+interface BaseObjectSchema {
   name: string;
   primaryKey?: string;
   embedded?: boolean;
+  asymmetric?: boolean;
+}
+
+export interface ObjectSchema extends BaseObjectSchema {
   properties: PropertiesTypes;
 }
 

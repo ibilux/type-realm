@@ -93,7 +93,7 @@ realm.write(() => {
 
 ## Advanced Usage
 
-For more advanced usage, checkout the [examples in](https://github.com/ibilux/type-realm/tree/master/__tests__/TypeRealm.test.ts)!
+For more advanced usage, checkout the [example](https://github.com/ibilux/type-realm/tree/master/__tests__/TypeRealm.test.ts)!
 
 
 Since this library is written in TypeScript, all editors with some form of intellisense should also be able to provide strongly types suggestions for the decorators as well!
@@ -106,3 +106,6 @@ The API reference is located at [docs.mongodb.com/realm-sdks/js/latest/](https:/
 
 ## More Examples
 Coming soon.
+
+## Credits
+This work is inspired from [aklinker1](https://github.com/aklinker1/realm-ts-class-decorators)

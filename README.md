@@ -2,7 +2,7 @@
 
 ![NPM Version](https://img.shields.io/npm/v/type-realm) ![License](https://img.shields.io/github/license/ibilux/type-realm) ![Issues](https://img.shields.io/github/issues/ibilux/type-realm)
 
-![ ](coverage/badge-statements.svg) ![ ](coverage/badge-branches.svg) ![ ](coverage/badge-functions.svg) ![ ](coverage/badge-lines.svg)
+![ ](https://github.com/ibilux/type-realm/raw/master/coverage/badge-statements.svg) ![ ](https://github.com/ibilux/type-realm/raw/master/coverage/badge-branches.svg) ![ ](https://github.com/ibilux/type-realm/raw/master/coverage/badge-functions.svg) ![ ](https://github.com/ibilux/type-realm/raw/master/coverage/badge-lines.svg)
 
 
 Create Realm schema with TypeScript, using classes and decorators!
